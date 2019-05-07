@@ -1,0 +1,25 @@
+{
+  "name": "network-app",
+  "version": "1.0.0",
+  "description": "Social Media layout design",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass -rw assets/scss -o assets/css",
+    "watch": "npm run sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzafoCossa/Network-App.git"
+  },
+  "keywords": [
+    "Social Media",
+    "Web Design",
+    "Web development"
+  ],
+  "author": "Azafo Cossa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AzafoCossa/Network-App/issues"
+  },
+  "homepage": "https://github.com/AzafoCossa/Network-App#readme"
+}
