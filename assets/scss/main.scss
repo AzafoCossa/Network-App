@@ -48,12 +48,35 @@ img {
     }
 
     a {
-        //color: #fff;
+        color: #fff;
         padding: 0.45rem;
         margin: 0 0.25rem;
 
         &:hover {
             color: $primary-color;
         }
+    }
+}
+
+//Landing
+.landing {
+    position: relative;
+    background-image: url('../img/pakata-goh-1065625-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    //width: 100%;
+
+    &-inner {
+        color: #fff;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 }
