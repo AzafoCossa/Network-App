@@ -175,6 +175,29 @@
   margin: 1.5rem 0;
   background-color: #ccc; }
 
+.badge {
+  font-size: 0.8rem;
+  padding: 0.1rem;
+  text-align: center;
+  margin: 0.3rem;
+  background-color: #fff;
+  color: #333; }
+  .badge-primary {
+    background-color: #17a2b8;
+    color: #fff; }
+  .badge-dark {
+    background-color: #343a40;
+    color: #fff; }
+  .badge-light {
+    background-color: #f4f4f4;
+    color: #333; }
+  .badge-danger {
+    background-color: #dc3545;
+    color: #fff; }
+  .badge-success {
+    background-color: #28a745;
+    color: #fff; }
+
 .form-group {
   margin: 1.2rem 0; }
 
@@ -296,6 +319,14 @@ img {
     grid-area: edu; }
   .profile-grid .profile-github {
     grid-area: github; }
+    .profile-grid .profile-github .repo {
+      display: flex; }
+      .profile-grid .profile-github .repo > div:first-child {
+        flex: 7;
+        flex-basis: 70%; }
+      .profile-grid .profile-github .repo > div:last-child {
+        flex: 3;
+        flex-basis: 20%; }
   .profile-grid .profile-exp > div,
   .profile-grid .profile-edu > div {
     margin-bottom: 1rem;
