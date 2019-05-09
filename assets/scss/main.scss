@@ -150,4 +150,22 @@ img {
             grid-area: github;
         }
     }
+
+    .profile-exp,
+    .profile-edu {
+
+        &>div {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px #ccc dotted;
+
+            &:last-child {
+                border: none;
+            }
+        }
+
+        p {
+            margin: 0.5rem 0;
+        }
+    }
 }
