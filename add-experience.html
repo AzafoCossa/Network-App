@@ -36,9 +36,44 @@
 
     <section class="container">
         <h1 class="large text-primary">
-            HEADING
+            Add An Experience
         </h1>
-        <p class="lead"><i class="fas fa-user"></i> TEXT</p>
+        <p class="lead"><i class="fas fa-code-branch"></i> Add any developer/programming positions that you have had in
+            the past</p>
+        <small>* = required fields</small>
+
+        <form action="dashboard.html" class="form">
+            <div class="form-group">
+                <input type="text" name="tittle" id="tittle" placeholder="* Job Tittle">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="company" id="company" placeholder="* Company">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="location" id="location" placeholder="Location">
+            </div>
+
+            <div class="form-group">
+                <h4>From Date</h4>
+                <input type="date" name="fromdate" id="fromdate">
+            </div>
+
+            <div class="form-group">
+                <h4>To Date</h4>
+                <input type="date" name="todate" id="todate">
+            </div>
+            <div class="form-group">
+                <p><input type="checkbox" name="current" id="current" />Current</p>
+            </div>
+            <div class="form-group">
+                <textarea name="description" id="description" cols="30" rows="5"
+                    placeholder="Job Description"></textarea>
+            </div>
+            <input type="submit" value="Save" class="btn btn-primary my-1">
+            <a href="dashboard.html" class="btn my-1">Go Back</a>
+        </form>
     </section>
 </body>
 
