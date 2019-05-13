@@ -368,3 +368,16 @@ img {
   .profile-grid .profile-exp p,
   .profile-grid .profile-edu p {
     margin: 0.5rem 0; }
+
+.post {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 2rem;
+  align-items: center;
+  padding: 1rem; }
+  .post img {
+    width: 150px; }
+  .post > div:first-child {
+    text-align: center; }
+  .post-form-header {
+    padding: 0.5rem; }
